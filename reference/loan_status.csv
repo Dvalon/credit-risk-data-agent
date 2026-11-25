@@ -1,0 +1,11 @@
+loan_status,status_group,is_terminal,credit_policy_flag,is_default,is_delinquent
+Fully Paid,Closed-Paid,true,false,0,0
+Charged Off,Default,true,false,1,0
+Default,Default,true,false,1,0
+Current,Performing,false,false,0,0
+In Grace Period,Delinquent,false,false,0,1
+Late (16-30 days),Delinquent,false,false,0,1
+Late (31-120 days),Delinquent,false,false,0,1
+Issued,Performing,false,false,0,0
+"Does not meet the credit policy. Status:Fully Paid",Closed-Paid,true,true,0,0
+"Does not meet the credit policy. Status:Charged Off",Default,true,true,1,0

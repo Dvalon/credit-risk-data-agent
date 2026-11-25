@@ -1,0 +1,15 @@
+purpose_code,purpose_label,purpose_group
+debt_consolidation,Debt consolidation,Debt
+credit_card,Credit card,Debt
+home_improvement,Home improvement,Home
+house,House,Home
+car,Car,Consumer
+major_purchase,Major purchase,Consumer
+medical,Medical,Consumer
+moving,Moving,Consumer
+vacation,Vacation,Consumer
+wedding,Wedding,Consumer
+educational,Educational,Consumer
+small_business,Small business,Business
+renewable_energy,Renewable energy,Business
+other,Other,Other
