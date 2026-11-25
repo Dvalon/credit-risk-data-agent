@@ -1,0 +1,29 @@
+# Secrets. Copy .env.example to .env and fill in local values.
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Raw extracts, built warehouses, and any other loan-level files.
+# The synthetic test fixture lives under tests/fixtures/ and is not ignored.
+data/
+*.duckdb
+*.duckdb.wal
+*.duckdb.building
+*.duckdb.building.wal
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+
+# OS / editor
+.DS_Store
